@@ -1,0 +1,30 @@
+{
+  "name": "booklistapi",
+  "version": "1.0.0",
+  "description": "RESTful API with Node/MongoDB/Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siegelverse/bookListApi.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Node",
+    "MongoDB"
+  ],
+  "author": "Marcus Siegel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siegelverse/bookListApi/issues"
+  },
+  "homepage": "https://github.com/siegelverse/bookListApi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.13"
+  }
+}
